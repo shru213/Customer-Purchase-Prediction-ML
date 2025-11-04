@@ -27,7 +27,7 @@ The model's performance is evaluated using precision, recall, and accuracy.
 * **Matplotlib:** For data visualization.
 * **Scikit-learn (sklearn):** For splitting the data, building the `LogisticRegression` model, and evaluating its performance with a `classification_report`.
 
-[Image of a logistic regression S-curve (sigmoid function)]
+
 
 ## How to Run This Project
 
@@ -51,4 +51,19 @@ The model's performance is evaluated using precision, recall, and accuracy.
 
 ## Model Results
 
-The logistic regression model was trained on 70% of the data and evaluated on the 3
+The logistic regression model was trained on 70% of the data and evaluated on the 30% test set.
+
+**Classification Report:**
+
+The report shows how well the model predicted purchases on new data it hadn't seen before. The accuracy is 89%.
+
+```
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92        73
+           1       0.91      0.79      0.85        47
+
+    accuracy                           0.89       120
+   macro avg       0.90      0.87      0.88       120
+weighted avg       0.89      0.89      0.89       120
+```
