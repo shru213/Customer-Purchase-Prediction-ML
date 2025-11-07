@@ -35,6 +35,4 @@ The scatter plot below shows the relationship between `Age` and `Estimated Salar
 
 ![Age vs. Salary Scatter Plot](plot.png)
 
-## How to Run This Project
 
-1.  **Clone the repository:**
